@@ -180,6 +180,7 @@ t3{
 	height:auto;
 	float:left;
 	text-align:center;
+	font-size:35px;
 }
 #keypointtitle{
 	margin-top:10px;
@@ -211,6 +212,9 @@ t3{
     line-height: 24px;
     text-transform: capitalize;
 	text-align:center;
+}
+sym1{
+	color:#53bc49;
 }
 
 
