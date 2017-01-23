@@ -35,13 +35,13 @@ main{
 headerlogo{
 	background:none;
 	width:310px;
-	margin-left:2%;
+	margin-left:3%;
 	float:left;
 }
 #headermenu{
 	background:none;
 	width:auto;
-	margin-left:20%;
+	margin-left:25%;
 	float:left;
 	margin-top:20px;
 }
@@ -103,8 +103,9 @@ nav ul li{
 	display:none;
 }
 footer{
-	width:100%;
+	width:80%;
 	height:150px;
+	margin-left:10%;
 	background:#289900;
 	float:left;
 }
@@ -123,7 +124,7 @@ footer{
 t1{
 	color:black;
     font-family:'Roboto', sans-serif;
-    font-size: 48px;
+    font-size: 100px;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 6px;
@@ -134,17 +135,17 @@ t1{
 t2{
 	color:black;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 65px;
     font-style: normal;
     font-weight: 500;
-    letter-spacing: -1px;
-    line-height: 0.8;
+    letter-spacing: 1px;
+    line-height: 1;
     text-transform: capitalize;
 }
 t3{
 	color:black;
     font-family: 'Roboto', sans-serif;
-    font-size: 26px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 500;
 	line-height: 1.5em;
@@ -196,7 +197,8 @@ t3{
 	text-align:center;
 }
 #keypointinfo{
-	width:100%;
+	width:80%;
+	margin-left:10%;
 	height:auto;
 	float:left;
 	margin-top:10px;
@@ -210,7 +212,6 @@ t3{
     text-transform: capitalize;
 	text-align:center;
 }
-
 
 
 
@@ -254,7 +255,7 @@ t3{
 	}
 	headerlogo{
 	background:none;
-	margin-left:2%;
+	margin-left:3%;
 	float:left;
 	}
 }
@@ -264,7 +265,7 @@ t3{
 	}
 	headerlogo{
 	background:none;
-	margin-left:2%;
+	margin-left:3%;
 	float:left;
 	}
 }
@@ -290,7 +291,7 @@ t3{
 	}
 	headerlogo{
 	background:none;
-	margin-left:2%;
+	margin-left:3%;
 	float:left;
 	}
 	nav ul{
@@ -304,7 +305,7 @@ t3{
 	}
 	headerlogo{
 	background:none;
-	margin-left:2%;
+	margin-left:3%;
 	float:left;
 	}
 	nav ul{
@@ -317,7 +318,7 @@ t3{
 	}
 	headerlogo{
 	background:none;
-	margin-left:2%;
+	margin-left:3%;
 	float:left;
 	}
 	nav ul{
@@ -348,19 +349,63 @@ t3{
 	text-align:center;
 	display:block;
 	}
+	#allkeypoints{
+	width:94%;
+	height:auto;
+	margin-left:3%;
+	float:left;
+	margin-top:27px;	
+	display:block;
+	}
 	#keypoint{
-	width:80%;
-	margin-left:10%;
+	width:100%;
 	height:auto;
 	float:left;
 	margin-top:10px;
 	}
 	#keypoint2{
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top:10px;
+	margin-left:0%;
+	}
+	#keypointsymbol{
+	width:100%;
+	height:auto;
+	float:left;
+	text-align:center;
+	}
+	#keypointtitle{
+	margin-top:10px;
+	width:100%;
+	height:auto;
+	float:left;
+	color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 0.8;
+    text-transform: capitalize;
+	text-align:center;
+	}
+	#keypointinfo{
 	width:80%;
 	margin-left:10%;
 	height:auto;
 	float:left;
-	margin-top:15px;
+	margin-top:10px;
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 25px;
+    text-transform: capitalize;
+	text-align:center;
 	}
 	#header{	
 	background:white;
@@ -382,6 +427,13 @@ t3{
 	margin-left:2%;
 	float:left;
 	}
+	footer{
+	width:100%;
+	height:150px;
+	margin-left:0%;
+	background:#289900;
+	float:left;
+}
 	#button1{
 	color:#FFF;
 	font-size:20px;
