@@ -208,7 +208,7 @@ t3{
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0px;
-    line-height: 25px;
+    line-height: 24px;
     text-transform: capitalize;
 	text-align:center;
 }
@@ -271,20 +271,9 @@ t3{
 }
 @media screen and (max-width: 1300px){
 	#keypointinfo{
-	width:100%;
-	height:auto;
-	float:left;
-	margin-top:10px;
-	color:black;
-	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: 0px;
-    line-height: 25px;
-    text-transform: capitalize;
-	text-align:center;
-}
+    line-height: 21px;
+	}
 	#headermenu{
 	margin-left:8%;
 	margin-top:26px;
@@ -299,6 +288,10 @@ t3{
 	}
 }
 @media screen and (max-width: 1076px){
+	#keypointinfo{
+	font-size: 12px;
+	line-height: 20px;
+	}
 	#headermenu{
 	margin-left:4%;
 	margin-top:28px;
@@ -361,14 +354,16 @@ t3{
 	width:100%;
 	height:auto;
 	float:left;
-	margin-top:10px;
+	margin-top:0px;
+	padding-bottom:80px;
 	}
 	#keypoint2{
 	width:100%;
 	height:auto;
 	float:left;
-	margin-top:10px;
+	margin-top:0px;
 	margin-left:0%;
+	padding-bottom:80px;
 	}
 	#keypointsymbol{
 	width:100%;
