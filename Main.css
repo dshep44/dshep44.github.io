@@ -278,9 +278,9 @@ sym1{
 	margin-left:3%;
 	float:left;
 	}
-	#keypointinfo{
-	font-size: 14px;
-    line-height: 29px;
+	#standardinfo{
+	font-size: 15px;
+	line-height: 30px;
 	}
 }
 @media screen and (max-width: 1450px){
