@@ -278,10 +278,6 @@ sym1{
 	margin-left:3%;
 	float:left;
 	}
-	#standardinfo{
-	font-size: 15px;
-	line-height: 30px;
-	}
 }
 @media screen and (max-width: 1450px){
 	#headermenu{
