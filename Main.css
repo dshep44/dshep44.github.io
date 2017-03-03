@@ -432,8 +432,8 @@ sym1{
 	text-align:center;
 	}
 	#standardinfo{
-	width:98%;
-	margin-left:1%;
+	width:96%;
+	margin-left:2%;
 	height:auto;
 	float:left;
 	margin-top:60px;
@@ -473,7 +473,7 @@ sym1{
 	margin-left:0%;
 	background:#289900;
 	float:left;
-}
+	}
 	#button1{
 	color:#FFF;
 	font-size:20px;
