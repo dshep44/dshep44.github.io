@@ -491,7 +491,10 @@ sym1{
 	nav ul li{
 		box-sizing: border-box;
 		width:100%;
-		padding:0px;
+		padding:45px;
+	}
+	#button{
+	width:100%;
 	}
 	.handle{
 		display:block;
