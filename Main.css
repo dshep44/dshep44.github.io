@@ -5,10 +5,6 @@ body{
 	
 	height:100%;
 	background:#F3E8E8;
-	background-attachment: fixed;
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position:center top;
 	padding:0px;
 	margin:0px;
 	background:#283033;
@@ -34,7 +30,7 @@ body{
 }
 .wrapper{
 	width:100%;
-	min-height: 100vh;
+	height:auto;
 	float:left;
 }
 #header{
@@ -45,9 +41,9 @@ body{
 	background:#0C9;
 }
 #banner{
-	width:60%;
+	width:52%;
 	height:auto;
-	margin-left:20%;
+	margin-left:24%;
 	float:left;
 }
 #content-summery{
@@ -86,6 +82,7 @@ body{
 	background-size:cover;
 	background-position:center center;
 	float:left;
+	padding-bottom:5vh;
 }
 #service-heading{
 	width:100%;
@@ -134,20 +131,117 @@ body{
 	line-height:50px;
 	color:#FFF;
 }
+#serviced-brands{
+	width:100%;
+	background:#FFFFFF;
+	height:100px;
+	float:left;
+}
 .footer{
 	width:100%;
+	background:#283033;
 	height:auto;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 #footer-container{
 	width:90%;
+	height:auto;
 	margin-left:5%;
+	padding-top:5vh;
+	padding-bottom:3vh;
 	float:left;
-	background:#1DC31B;
+	background:none;
 }
+#footer-col-1{
+	width:34%;
+	height:auto;
+	float:left;
+}
+#footer-col-2{
+	width:20%;
+	height:auto;
+	float:left;
+}
+#footer-col-3{
+	width:20%;
+	height:auto;
+	float:left;
+}
+#footer-col-4{
+	width:26%;
+	height:auto;
+	float:left;
+}
+#footer-logo{
+	width:60%;
+	height:15vh;
+	float:left;
+}
+#footer-bottom{
+	width:100%;
+	float:left;
+	bottom:0px;
+	margin-top:1vh;
+}
+#footer-logo-container{
+	width:100%;
+	float:left;
+}
+.footer-register{
+	height:auto;
+	float:left;
+	font-weight:600;
+	color:#545a5d;
+	font-size:16px;
+	width:34%;
+}
+.footer-title{
+	height:auto;
+	font-weight:800;
+	color:#dddddd;
+	font-size:16px;
+	letter-spacing:3px;
+	line-height:22px;
+}
+.footer-links{
+	height:auto;
+	font-weight:500;
+	color:#d8d8d8;
+	font-size:16px;
+	line-height:28px;
+	letter-spacing:1px;
+}
+.social-buttons{
+	width:26%;
+	float:left;
+	margin-left:40%;
+	height:auto;
+	text-align:right;
+	color:#545a5d;
+	font-size:16px;
+	letter-spacing:8px;
+}
+.contact-mini{
+	width:26%;
+	float:left;
+	margin-left:40%;
+	height:auto;
+	text-align:right;
+	color:#545a5d;
+	font-size:16px;
+	letter-spacing:1px;
+}
+.responsive-image{
+    width: 100%;
+    background-size: 100% 100%;
+} 
+
+
 
 @media screen and (max-width: 1650px){
 	
 }
+
 
 @media screen and (max-width: 1367px){
 	#banner{
@@ -156,4 +250,72 @@ body{
 	margin-left:25%;
 	float:left;
 	}
+	#content-button{
+	width:60%;
+	height:50px;
+	margin-left:20%;
+	margin-top:4vh;
+	font-size:18px;
+    border-width: 1px;
+	line-height:50px;
+	}
+	.summery-icon{
+	color:#FFF;
+	margin-top:5vh;
+	}
+	.summery-title{
+	margin-top:1vh;
+	font-weight:600;
+	font-size:42px;
+	}
+	.summery-paragraph{
+	font-size:18px;
+	width:50%;
+	margin-left:25%;
+	}
+	#about-summery{
+	height:auto;
+	width:50%;
+	}
+	#our-services-summery{
+	height:auto;
+	width:50%;
+	}
+	#products-summery{
+	height:auto;
+	width:50%;
+	margin-top:15vh;
+	}
+	#contact-summery{
+	height:auto;
+	width:50%;
+	margin-top:15vh;
+	}
+	
+	#footer-container{
+	width:90%;
+	height:10vh;
+	margin-left:5%;
+	float:left;
+	background:none;
+}
+#footer-col-1{
+	width:34%;
+	height:100%;
+	float:left;
+}
+#footer-col-2{
+	width:33%;
+	height:100%;
+	float:left;
+}
+#footer-col-3{
+	width:33%;
+	height:100%;
+	float:left;
+}
+.footer-register{
+	height:20%;
+	margin-top:80%;
+}
 }
