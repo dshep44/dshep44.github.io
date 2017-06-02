@@ -200,7 +200,7 @@ body{
 	font-weight:800;
 	color:#dddddd;
 	font-size:16px;
-	letter-spacing:3px;
+	letter-spacing:4px;
 	line-height:22px;
 }
 .footer-links{
@@ -231,10 +231,29 @@ body{
 	font-size:16px;
 	letter-spacing:1px;
 }
+.footer-times{
+	width:100%;
+	float:left;
+	height:auto;
+	text-align:right;
+	color:#545a5d;
+	font-size:16px;
+	letter-spacing:1px;
+	line-height:28px;
+}
 .responsive-image{
     width: 100%;
     background-size: 100% 100%;
-} 
+}
+a {
+      text-decoration:none;
+	  color:inherit;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+	color:inherit;
+}
 
 
 
@@ -246,27 +265,12 @@ body{
 @media screen and (max-width: 1367px){
 	#banner{
 	width:50%;
-	height:auto;
 	margin-left:25%;
-	float:left;
 	}
 	#content-button{
-	width:60%;
-	height:50px;
-	margin-left:20%;
+	width:50%;
+	margin-left:25%;
 	margin-top:4vh;
-	font-size:18px;
-    border-width: 1px;
-	line-height:50px;
-	}
-	.summery-icon{
-	color:#FFF;
-	margin-top:5vh;
-	}
-	.summery-title{
-	margin-top:1vh;
-	font-weight:600;
-	font-size:42px;
 	}
 	.summery-paragraph{
 	font-size:18px;
@@ -292,30 +296,36 @@ body{
 	margin-top:15vh;
 	}
 	
-	#footer-container{
-	width:90%;
-	height:10vh;
-	margin-left:5%;
-	float:left;
-	background:none;
-}
-#footer-col-1{
-	width:34%;
-	height:100%;
-	float:left;
-}
-#footer-col-2{
-	width:33%;
-	height:100%;
-	float:left;
-}
-#footer-col-3{
-	width:33%;
-	height:100%;
-	float:left;
-}
-.footer-register{
-	height:20%;
-	margin-top:80%;
-}
+	#footer-col-2{
+	width:18%;
+	}
+	#footer-col-3{
+	width:18%;
+	}
+	#footer-col-4{
+	width:29%;
+	}
+	#footer-logo{
+	width:80%;
+	}
+	.footer-register{
+	font-size:14px;
+	}
+	.footer-title{
+	font-size:14px;
+	}
+	.footer-links{
+	font-size:14px;
+	}
+	.social-buttons{
+	font-size:14px;
+	}
+	.contact-mini{
+	width:30%;
+	margin-left:36%;
+	font-size:14px;
+	}
+	.footer-times{
+	font-size:14px;
+	}
 }
