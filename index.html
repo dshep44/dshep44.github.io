@@ -4,9 +4,11 @@
 
 <meta charset="utf-8">
 <title>The PC Guys</title>
-<link href="main.css" rel="stylesheet" type="text/css">
+<link href="Main.css" rel="stylesheet" type="text/css">
+<link href="effects.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <script src="https://use.fontawesome.com/fc3984932e.js"></script>
+<script src="scroll.js"></script>
 </head>
 
 <body class="Site">
@@ -26,7 +28,9 @@
       </div>
     </div>
 	<div id="banner">
-    <img src="images/landing.png" class="responsive-image"></div>
+    	<img src="images/landing.png" class="responsive-image">
+    </div>
+    <a href="javascript:Scrolldown()"><div id="arrow"></div></a>
 </div>
 <!--End of Header And Menu -->
 <!--Beginning of Content -->
@@ -34,7 +38,7 @@
 <div class="wrapper">
 	<div id="content-summery"></div>
     <div id="services-container" class="summery">
-   	  <div id="service-heading">Services</div>
+   	  <div id="service-heading" class="fancy"><span>Services</span></div>
 	  <div id="about-summery">
       
       	<div class="summery-icon">
@@ -44,7 +48,7 @@
 		<div class="summery-paragraph">
         	<br><br>The PC Guys was established in 2005 to provide consistent and reliable computer services at reasonable prices for the residents and businesses in the Cairns northern beaches area. In 2015, the business              continues to grow to meet our customers' needs.
         </div>
-        <a href="#"><div id="content-button">
+        <a href="about.html"><div id="content-button">
         	Go to About Us
             <i class="fa fa-arrow-circle-right fa-fw" aria-hidden="true"></i>
         </div></a>

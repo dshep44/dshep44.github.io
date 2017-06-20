@@ -18,6 +18,15 @@ body{
 .Site-content {
   flex: 1;
 }
+#arrow{
+	background:url(graphics/Arrow.png);
+	width:60px;
+	height:80px;
+	right:0;
+	float:left;
+	position:absolute;
+	bottom:0;
+}
 .landing-home{
 	background-image:url(graphics/Background%203.jpg);
 	height:100vh;
@@ -88,11 +97,41 @@ body{
 	font-size:16px;
 	letter-spacing:1px;
 }
-#header-links{
+#header-links-s{
+	width:9%;
+	float:left;
+	height:35px;
+	text-align:center;
+	color:#000000;
+	font-size:16px;
+	letter-spacing:1px;
+	margin-top:35px;
+}
+#header-links-m{
 	width:10%;
 	float:left;
 	height:35px;
 	text-align:center;
+	color:#000000;
+	font-size:16px;
+	letter-spacing:1px;
+	margin-top:35px;
+}
+#header-links-l{
+	width:12%;
+	float:left;
+	height:35px;
+	text-align:center;
+	color:#000000;
+	font-size:16px;
+	letter-spacing:1px;
+	margin-top:35px;
+}
+#header-phone{
+	width:25%;
+	float:left;
+	height:35px;
+	text-align:right;
 	color:#000000;
 	font-size:16px;
 	letter-spacing:1px;
@@ -335,7 +374,7 @@ body{
 	margin-left:4%;
 }
 #about-skills{
-	height:auto;
+	height:100%;
 	width:100%;
 	background:#f1f1f1;
 	float:left;
@@ -409,6 +448,9 @@ body{
 	letter-spacing:3px;
 	margin-top:1vh;
 	float:left;
+}
+.green{
+	color:#7ac142;
 }
 .responsive-image{
     width: 100%;
