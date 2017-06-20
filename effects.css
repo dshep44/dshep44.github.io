@@ -178,3 +178,30 @@
   left: 100%;
   margin-left: 3vw;
 }
+
+
+.fancy4 {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy4 span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy4 span:before,
+.fancy4 span:after {
+  content: "";
+  position: absolute;
+  height: 6px;
+  border-bottom: 1px solid #CCC;
+  top: 0;
+  width: 3vw;
+}
+.fancy4 span:before {
+  right: 100%;
+  margin-right: 3vw;
+}
+.fancy4 span:after {
+  left: 100%;
+  margin-left: 3vw;
+}
