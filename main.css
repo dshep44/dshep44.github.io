@@ -37,9 +37,19 @@ body{
 	background-size:cover;
 	background-position:center top;
 }
+.landing-contact{
+	background:#ffffff;
+	height:auto;
+	width:100%;
+	float:left;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center top;
+}
 .landing{
 	background:#ffffff;
-	height:100vh;
+	height:auto;
 	width:100%;
 	float:left;
 	background-attachment: fixed;
@@ -51,6 +61,7 @@ body{
 	width:100%;
 	height:auto;
 	float:left;
+	background:#FFF;
 }
 #landing-header{
 	width:70%;
@@ -347,6 +358,22 @@ body{
 	width:100%;
 	height:auto;
 }
+.contact-heading{
+	font-size:32px;
+	font-weight:500;
+	text-align:left;
+	color:#444444;
+	width:100%;
+	height:auto;
+}
+.contact-heading2{
+	font-size:32px;
+	font-weight:500;
+	text-align:right;
+	color:#444444;
+	width:100%;
+	height:auto;
+}
 #about-content{
 	width:60%;
 	height:auto;
@@ -374,7 +401,15 @@ body{
 	margin-left:4%;
 }
 #about-skills{
-	height:100%;
+	height:35vh;
+	width:100%;
+	background:#f1f1f1;
+	float:left;
+	margin-top:5vh;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#google-map{
+	height:auto;
 	width:100%;
 	background:#f1f1f1;
 	float:left;
@@ -405,6 +440,22 @@ body{
 	color:#444444;
 	width:100%;
 	height:auto;
+	margin-top:5vh;
+}
+.map-heading{
+	font-size:32px;
+	font-weight:500;
+	text-align:center;
+	color:#444444;
+	width:100%;
+	height:auto;
+	margin-top:5vh;
+}
+#location-frame{
+	width:60%;
+	height:45vh;
+	margin-left:20%;
+	margin-bottom:5vh;
 	margin-top:5vh;
 }
 #stats-section{
@@ -451,6 +502,20 @@ body{
 }
 .green{
 	color:#7ac142;
+}
+.contact-info{
+	font-size:16px;
+	color:#333;
+	font-weight:700;
+	line-height:25px;
+	text-align:left;
+}
+.contact-info2{
+	font-size:16px;
+	color:#333;
+	font-weight:700;
+	line-height:25px;
+	text-align:right;
 }
 .responsive-image{
     width: 100%;
