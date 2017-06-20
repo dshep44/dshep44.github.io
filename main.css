@@ -1,0 +1,542 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+	height:100%;
+	background:#F3E8E8;
+	padding:0px;
+	margin:0px;
+	background:#283033;
+}
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+#arrow{
+	background:url(graphics/Arrow.png);
+	width:60px;
+	height:80px;
+	right:0;
+	float:left;
+	position:absolute;
+	bottom:0;
+}
+.landing-home{
+	background-image:url(graphics/Background%203.jpg);
+	height:100vh;
+	width:100%;
+	float:left;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center top;
+}
+.landing{
+	background:#ffffff;
+	height:100vh;
+	width:100%;
+	float:left;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center top;
+}
+.wrapper{
+	width:100%;
+	height:auto;
+	float:left;
+}
+#landing-header{
+	width:70%;
+	margin-left:15%;
+	margin-top:10px;
+	height:45px;
+	background:none;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#header{
+	width:70%;
+	margin-left:15%;
+	margin-top:10px;
+	height:80px;
+	float:left;
+	background:none;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#logo{
+	width:25%;
+	float:left;
+	height:auto;
+}
+.responsive-logo{
+    height:80px;
+	float:left;
+    background-size: 100% 100%;
+}
+.social-header{
+	width:26%;
+	float:left;
+	height:auto;
+	text-align:left;
+	color:#000000;
+	font-size:18px;
+	letter-spacing:8px;
+}
+.contact-header{
+	width:74%;
+	float:left;
+	height:auto;
+	text-align:right;
+	color:#000000;
+	font-size:16px;
+	letter-spacing:1px;
+}
+#header-links-s{
+	width:9%;
+	float:left;
+	height:35px;
+	text-align:center;
+	color:#000000;
+	font-size:16px;
+	letter-spacing:1px;
+	margin-top:35px;
+}
+#header-links-m{
+	width:10%;
+	float:left;
+	height:35px;
+	text-align:center;
+	color:#000000;
+	font-size:16px;
+	letter-spacing:1px;
+	margin-top:35px;
+}
+#header-links-l{
+	width:12%;
+	float:left;
+	height:35px;
+	text-align:center;
+	color:#000000;
+	font-size:16px;
+	letter-spacing:1px;
+	margin-top:35px;
+}
+#header-phone{
+	width:25%;
+	float:left;
+	height:35px;
+	text-align:right;
+	color:#000000;
+	font-size:16px;
+	letter-spacing:1px;
+	margin-top:35px;
+}
+#banner{
+	width:52%;
+	height:auto;
+	margin-left:24%;
+	float:left;
+}
+#content-summery{
+	width:100%;
+	height:auto;
+	background:#FFFFFF;
+	float:left;
+}
+.summery{
+	text-align:center;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+.summery-icon{
+	color:#FFF;
+	margin-top:5vh;
+}
+.summery-title{
+	margin-top:1vh;
+	font-weight:600;
+	color:#FFFFFF;
+	font-size:42px;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+.summery-paragraph{
+	color:#FFF;
+	font-size:18px;
+	width:70%;
+	margin-left:15%;
+	line-height:25px;
+}
+#services-container{
+	height:auto;
+	width:100%;
+	background:url(graphics/black-desk.jpg);
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	float:left;
+	padding-bottom:5vh;
+}
+#service-heading{
+	width:100%;
+	background:none;
+	margin-top:3vh;
+	font-weight:600;
+	color:#FFFFFF;
+	font-size:48px;
+}
+#about-summery{
+	height:500px;
+	background:none;
+	width:25%;
+	float:left;
+}
+#our-services-summery{
+	height:500px;
+	background:none;
+	width:25%;
+	float:left;
+}
+#products-summery{
+	height:500px;
+	background:none;
+	width:25%;
+	float:left;
+}
+#contact-summery{
+	height:500px;
+	background:none;
+	width:25%;
+	float:left;
+}
+
+#content-button{
+	width:60%;
+	height:50px;
+	margin-left:20%;
+	margin-top:3vh;
+	float:left;
+	font-size:18px;
+	background-color:#37393d;
+	border-style: solid;
+    border-width: 1px;
+	border-color:#FFF;
+	line-height:50px;
+	color:#FFF;
+}
+#serviced-brands{
+	width:100%;
+	background:#FFFFFF;
+	height:100px;
+	float:left;
+}
+.footer{
+	width:100%;
+	background:#283033;
+	height:auto;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#footer-container{
+	width:90%;
+	height:auto;
+	margin-left:5%;
+	padding-top:5vh;
+	padding-bottom:3vh;
+	float:left;
+	background:none;
+}
+#footer-col-1{
+	width:34%;
+	height:auto;
+	float:left;
+}
+#footer-col-2{
+	width:20%;
+	height:auto;
+	float:left;
+}
+#footer-col-3{
+	width:20%;
+	height:auto;
+	float:left;
+}
+#footer-col-4{
+	width:26%;
+	height:auto;
+	float:left;
+}
+#footer-logo{
+	width:60%;
+	height:15vh;
+	float:left;
+}
+#footer-bottom{
+	width:100%;
+	float:left;
+	bottom:0px;
+	margin-top:1vh;
+}
+#footer-logo-container{
+	width:100%;
+	float:left;
+}
+.footer-register{
+	height:auto;
+	float:left;
+	font-weight:600;
+	color:#545a5d;
+	font-size:16px;
+	width:34%;
+}
+.footer-title{
+	height:auto;
+	font-weight:800;
+	color:#dddddd;
+	font-size:16px;
+	letter-spacing:4px;
+	line-height:22px;
+}
+.footer-links{
+	height:auto;
+	font-weight:500;
+	color:#d8d8d8;
+	font-size:16px;
+	line-height:28px;
+	letter-spacing:1px;
+}
+.social-buttons{
+	width:26%;
+	float:left;
+	margin-left:40%;
+	height:auto;
+	text-align:right;
+	color:#545a5d;
+	font-size:16px;
+	letter-spacing:8px;
+}
+.contact-mini{
+	width:26%;
+	float:left;
+	margin-left:40%;
+	height:auto;
+	text-align:right;
+	color:#545a5d;
+	font-size:16px;
+	letter-spacing:1px;
+}
+.footer-times{
+	width:100%;
+	float:left;
+	height:auto;
+	text-align:right;
+	color:#545a5d;
+	font-size:16px;
+	letter-spacing:1px;
+	line-height:28px;
+}
+.page-heading{
+	font-size:32px;
+	font-weight:500;
+	text-align:center;
+	color:#444444;
+	width:100%;
+	height:auto;
+}
+#about-content{
+	width:60%;
+	height:auto;
+	margin-left:20%;
+	float:left;
+	margin-top:6vh;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#column-1{
+	margin-top:8vh;
+	width:48%;
+	height:auto;
+	font-size:15px;
+	font-weight:400;
+	text-align:left;
+	float:left;
+	color:#777777;
+	line-height:20px
+}
+#column-2{
+	margin-top:7vh;
+	width:48%;
+	height:auto;
+	float:left;
+	margin-left:4%;
+}
+#about-skills{
+	height:100%;
+	width:100%;
+	background:#f1f1f1;
+	float:left;
+	margin-top:5vh;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#skill-summery{
+	height:auto;
+	width:60%;
+	margin-left:20%;
+	float:left;
+	text-align:center;
+	font-size:20px;
+	font-weight:500;
+	margin-top:3vh;
+}
+.skill{
+	width:25%;
+	height:auto;
+	float:left;
+	margin-top:2vh;
+	margin-bottom:2vh;
+}
+.skill-heading{
+	font-size:32px;
+	font-weight:500;
+	text-align:center;
+	color:#444444;
+	width:100%;
+	height:auto;
+	margin-top:5vh;
+}
+#stats-section{
+	width:100%;
+	height:auto;
+	background:url(graphics/g-background.png);
+	float:left;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#FFF;
+}
+#stats{
+	width:50%;
+	margin-left:25%;
+	height:auto;
+	float:left;
+	margin-top:10vh;
+	margin-bottom:10vh;
+}
+.stat{
+	width:33%;
+	height:auto;
+	float:left;
+	text-align:center;
+	font-size:20px;
+	font-weight:500;
+}
+.number{
+	text-align:center;
+	width:100%;
+	font-size:40px;
+	font-weight:400;
+	letter-spacing:3px;
+	margin-top:1vh;
+	float:left;
+}
+.subject{
+	text-align:center;
+	width:100%;
+	font-size:18px;
+	font-weight:400;
+	letter-spacing:3px;
+	margin-top:1vh;
+	float:left;
+}
+.green{
+	color:#7ac142;
+}
+.responsive-image{
+    width: 100%;
+    background-size: 100% 100%;
+}
+a {
+      text-decoration:none;
+	  color:inherit;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+	color:inherit;
+}
+
+
+
+@media screen and (max-width: 1650px){
+	
+}
+
+
+@media screen and (max-width: 1367px){
+	#banner{
+	width:50%;
+	margin-left:25%;
+	}
+	#content-button{
+	width:50%;
+	margin-left:25%;
+	margin-top:4vh;
+	}
+	.summery-paragraph{
+	font-size:18px;
+	width:50%;
+	margin-left:25%;
+	}
+	#about-summery{
+	height:auto;
+	width:50%;
+	}
+	#our-services-summery{
+	height:auto;
+	width:50%;
+	}
+	#products-summery{
+	height:auto;
+	width:50%;
+	margin-top:15vh;
+	}
+	#contact-summery{
+	height:auto;
+	width:50%;
+	margin-top:15vh;
+	}
+	
+	#footer-col-2{
+	width:18%;
+	}
+	#footer-col-3{
+	width:18%;
+	}
+	#footer-col-4{
+	width:29%;
+	}
+	#footer-logo{
+	width:80%;
+	}
+	.footer-register{
+	font-size:14px;
+	}
+	.footer-title{
+	font-size:14px;
+	}
+	.footer-links{
+	font-size:14px;
+	}
+	.social-buttons{
+	font-size:14px;
+	}
+	.contact-mini{
+	width:30%;
+	margin-left:36%;
+	font-size:14px;
+	}
+	.footer-times{
+	font-size:14px;
+	}
+}
