@@ -81,7 +81,7 @@ body{
 	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 #logo{
-	width:25%;
+	width:27%;
 	float:left;
 	height:auto;
 }
@@ -139,7 +139,7 @@ body{
 	margin-top:35px;
 }
 #header-phone{
-	width:25%;
+	width:28%;
 	float:left;
 	height:35px;
 	text-align:right;
@@ -300,8 +300,8 @@ body{
 	height:auto;
 	float:left;
 	font-weight:600;
-	color:#545a5d;
-	font-size:16px;
+	color:#6d6f71;
+	font-size:12px;
 	width:34%;
 }
 .footer-title{
@@ -326,7 +326,7 @@ body{
 	margin-left:40%;
 	height:auto;
 	text-align:right;
-	color:#545a5d;
+	color:#6d6f71;
 	font-size:16px;
 	letter-spacing:8px;
 }
@@ -336,7 +336,7 @@ body{
 	margin-left:40%;
 	height:auto;
 	text-align:right;
-	color:#545a5d;
+	color:#6d6f71;
 	font-size:16px;
 	letter-spacing:1px;
 }
@@ -345,7 +345,7 @@ body{
 	float:left;
 	height:auto;
 	text-align:right;
-	color:#545a5d;
+	color:#6d6f71;
 	font-size:16px;
 	letter-spacing:1px;
 	line-height:28px;
@@ -449,6 +449,18 @@ body{
 	line-height:20px;
 	margin-bottom:3vh;
 }
+#column-6{
+	width:60%;
+	height:auto;
+	float:left;
+	margin-left:20%;
+	font-size:15px;
+	font-weight:400;
+	float:left;
+	color:#777777;
+	line-height:20px;
+	margin-bottom:3vh;
+}
 #column-full{
 	float:left;
 	width:100%;
@@ -476,6 +488,21 @@ body{
 	background:#f1f1f1;
 	float:left;
 	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#product-gallery{
+	height:auto;
+	width:100%;
+	background:#f1f1f1;
+	float:left;
+	margin-top:5vh;
+}
+.product-gallery{
+	height:auto;
+	width:70%;
+	background:#f1f1f1;
+	float:left;
+	margin-top:5vh;
+	margin-left:15%;
 }
 #google-map{
 	height:auto;

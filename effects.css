@@ -205,3 +205,30 @@
   left: 100%;
   margin-left: 3vw;
 }
+
+
+.fancy5 {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy5 span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy5 span:before,
+.fancy5 span:after {
+  content: "";
+  position: absolute;
+  height: 6px;
+  border-bottom: 1px solid #CCC;
+  top: 0;
+  width: 2.5vw;
+}
+.fancy5 span:before {
+  right: 100%;
+  margin-right: 3vw;
+}
+.fancy5 span:after {
+  left: 100%;
+  margin-left: 3vw;
+}
