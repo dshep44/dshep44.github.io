@@ -305,7 +305,7 @@
 
 
 .fancy {
-  line-height: 0.5;
+  line-height: 80px;
   text-align: center;
 }
 .fancy span {
@@ -332,7 +332,7 @@
 
 
 .fancy2 {
-  line-height: 60px;
+  line-height: 80px;
   text-align: center;
 }
 .fancy2 span {
@@ -359,7 +359,7 @@
 
 
 .fancy3 {
-  line-height: 0.5;
+  line-height: 80px;
   text-align: center;
 }
 .fancy3 span {
@@ -386,7 +386,7 @@
 
 
 .fancy4 {
-  line-height: 0.5;
+  line-height: 80px;
   text-align: center;
 }
 .fancy4 span {
@@ -413,7 +413,7 @@
 
 
 .fancy5 {
-  line-height: 0.5;
+  line-height: 80px;
   text-align: center;
 }
 .fancy5 span {
@@ -424,9 +424,9 @@
 .fancy5 span:after {
   content: "";
   position: absolute;
-  height: 6px;
+  height: 10px;
   border-bottom: 1px solid #CCC;
-  top: 0;
+  top: auto;
   width: 0vw;
 }
 .fancy5 span:before {
