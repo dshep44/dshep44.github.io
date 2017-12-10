@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
 <head>
-
-<meta charset="utf-8">
-<title>The PC Guys</title>
-<link href="main.css" rel="stylesheet" type="text/css">
-<link href="effects.css" rel="stylesheet" type="text/css">
-<link href="contact-form.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<script src="https://use.fontawesome.com/fc3984932e.js"></script>
+    <meta charset="utf-8">
+    <title>The PC Guys</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="effects.css" rel="stylesheet" type="text/css">
+    <link href="contact-form.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://use.fontawesome.com/fc3984932e.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
 </head>
 
 <body class="Site">
@@ -24,12 +24,12 @@
    	  <a href="index.html"><div id="header-links-s" class="hvr-underline-from-center">Home</div></a>
       <a href="about.html"><div id="header-links-s" class="hvr-underline-from-center">About</div></a>
       <a href="services.html"><div id="header-links-s" class="hvr-underline-from-center2">Services</div></a>
-      <a href="products.html"><div id="header-links-s" class="hvr-underline-from-center2">Products</div></a>
-      <a href="contact-us.html"><div id="header-links-s" class="hvr-underline-from-center3">Contact Us</div></a>
+      <a href="products.html"><div id="header-links-m" class="hvr-underline-from-center2">Products</div></a>
+      <a href="contact-us.html"><div id="header-links-m" class="hvr-underline-from-center3">Contact Us</div></a>
       
       <div id="header-phone"><i class="fa fa-phone" aria-hidden="true"></i> (07) 4057 4643</div>
 	</div>
-  
+      
 </div>
 <!--End of Header And Menu -->
 <!--Beginning of Content -->
@@ -45,8 +45,7 @@
         <div class="contact-info">
         	Shop 24 Campus Shopping Village<br>
 			6 Faculty Close<br>
-			Smithfield QLD 4878<br><br>
-            Email: sales@thepcguys.com.au
+			Smithfield QLD 4878
         </div>
       </div>
       
@@ -151,5 +150,11 @@
   </div>
 </div>
 <!--FOOTER END -->
+
+	<script>
+		$('.handle').on('click', function(){
+			$('nav ul').toggleClass('showing');
+		});
+	</script>
 </body>
 </html>

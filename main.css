@@ -18,6 +18,7 @@ body{
 .Site-content {
   flex: 1;
 }
+
 #arrow{
 	background:url(graphics/Arrow.png);
 	width:60px;
@@ -52,10 +53,6 @@ body{
 	height:auto;
 	width:100%;
 	float:left;
-	background-attachment: fixed;
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position:center top;
 }
 .wrapper{
 	width:100%;
@@ -67,6 +64,7 @@ body{
 	width:70%;
 	margin-left:15%;
 	margin-top:10px;
+	float:left;
 	height:45px;
 	background:none;
 	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
@@ -119,7 +117,7 @@ body{
 	margin-top:35px;
 }
 #header-links-m{
-	width:10%;
+	width:9%;
 	float:left;
 	height:35px;
 	text-align:center;
@@ -128,15 +126,14 @@ body{
 	letter-spacing:1px;
 	margin-top:35px;
 }
-#header-links-l{
-	width:12%;
+#header-menub{
+	width:28%;
 	float:left;
 	height:35px;
-	text-align:center;
+	text-align:right;
 	color:#000000;
 	font-size:16px;
 	letter-spacing:1px;
-	margin-top:35px;
 }
 #header-phone{
 	width:28%;
@@ -147,6 +144,7 @@ body{
 	font-size:16px;
 	letter-spacing:1px;
 	margin-top:35px;
+	margin-left:14%;
 }
 #banner{
 	width:52%;
@@ -567,8 +565,8 @@ body{
 	margin-left:25%;
 	height:auto;
 	float:left;
-	margin-top:10vh;
-	margin-bottom:10vh;
+	margin-top:8vh;
+	margin-bottom:8vh;
 }
 .stat{
 	width:33%;
@@ -642,15 +640,17 @@ a:hover, a:visited, a:link, a:active
     text-decoration: none;
 	color:inherit;
 }
-
-
-
-@media screen and (max-width: 1650px){
-	
+#b1{
+		padding:0px;
+		font-size:16px;
+		font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		letter-spacing:1px;
 }
 
 
-@media screen and (max-width: 1367px){
+
+
+@media screen and (max-width: 1368px){
 	#banner{
 	width:50%;
 	margin-left:25%;
@@ -683,7 +683,6 @@ a:hover, a:visited, a:link, a:active
 	width:50%;
 	margin-top:15vh;
 	}
-	
 	#footer-col-2{
 	width:18%;
 	}
@@ -715,5 +714,229 @@ a:hover, a:visited, a:link, a:active
 	}
 	.footer-times{
 	font-size:14px;
+	}
+	#header-links-s{
+	width:8%;
+	height:35px;
+	font-size:14px;
+	letter-spacing:1px;
+	margin-top:35px;
+	}
+	#header-links-m{
+	width:10.5%;
+	font-size:14px;
+	}
+	#column-1{
+	margin-top:10vh;
+	font-size:15px;
+	}
+	.page-heading{
+	font-size:26px;
+	}
+	#about-skills{
+	height:40vh;
+	}
+	#about-services{
+		height:75vh;
+	}
+	#about-services2{
+		
+	}
+	#skill-summery{
+	font-size:16px;
+	margin-top:5vh;
+	}
+	.skill-heading{
+	font-size:26px;
+	}
+	#stats-section{
+	background:url(graphics/g-background.png);
+	}
+	#stats{
+	margin-top:7vh;
+	margin-bottom:7vh;
+	}
+	.stat{
+	font-size:16px;
+	}
+	.contact-info{
+	font-size:16px;
+	font-weight:500;
+	}
+	.contact-info2{
+	font-size:16px;
+	font-weight:500;
+	}
+	.contact-heading{
+	font-size:26px;
+	}
+	.contact-heading2{
+	font-size:26px;
+	}
+	nav ul{
+	font-size:14px;
+	letter-spacing:0px;
+	}
+	#b1{
+		padding:0px;
+		font-size:13px;
+		font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		letter-spacing:1px;
+	}
+}
+
+@media screen and (max-width: 1175px){
+	#b1{
+		padding:0px;
+		font-size:11px;
+		font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		letter-spacing:1px;
+	}
+}
+
+@media screen and (max-width: 980px){
+	#header{
+	width:100%;
+	margin-left:0;
+	margin-top:10px;
+	height:auto;
+	float:left;
+	background:none;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+	#about-content{
+		margin:20 auto;
+		display:block;
+	}
+	#logo{
+		width:70%;
+		margin-left:5%;
+		height:auto;
+	}
+	#header-menub{
+	width:100px;
+	float:left;
+	height:100px;
+	margin-top:30px;
+	}
+	#header-phone{
+		display:none;
+	}
+	.page-heading{
+	font-size:70px;
+	font-weight:400;
+	height:auto;
+	line-height:70px;
+	float:left;
+	}
+	#column-1{
+		width:90%;
+		margin-left:5%;
+		font-size:34px;
+		line-height:40px;
+	}
+	#column-2{
+		display:none;
+	}
+	#b1{
+		padding:40px;
+		font-size:40px;
+	}
+	.responsive-logo{
+    height:auto;
+	float:left;
+	width:70%;
+    background-size: 100% 100%;
+	}
+	#about-content{
+		width:100%;
+		margin-left:0;
+	}
+	#about-skills{
+	height:auto;
+	width:100%;
+	background:#f1f1f1;
+	float:left;
+	margin-top:5vh;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+	.skill-heading{
+	font-size:70px;
+	font-weight:500;
+	text-align:center;
+	color:#444444;
+	width:100%;
+	height:auto;
+	margin-top:5vh;
+	}
+	#skill-summery{
+	height:auto;
+	width:90%;
+	margin-left:5%;
+	float:left;
+	text-align:center;
+	font-size:50px;
+	font-weight:500;
+	margin-top:5vh;
+	}
+	.skill{
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top:5vh;
+	margin-bottom:5vh;
+	}
+	.show-menu{
+	height:100px;
+	width:100px;
+	color:#000000;
+	}
+	#stats-section{
+	width:100%;
+	height:auto;
+	background:#7ac142;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center top;
+	float:left;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#FFF;
+	}
+	#stats{
+	width:90%;
+	margin-left:5%;
+	height:auto;
+	float:left;
+	margin-top:8vh;
+	margin-bottom:8vh;
+	}
+	.stat{
+	width:100%;
+	height:auto;
+	float:left;
+	text-align:center;
+	font-size:60px;
+	font-weight:500;
+	margin-top:5vh;
+	margin-bottom:5vh;
+	}
+	.number{
+	text-align:center;
+	width:100%;
+	font-size:64px;
+	font-weight:600;
+	letter-spacing:3px;
+	margin-top:1vh;
+	float:left;
+	}
+	.subject{
+	text-align:center;
+	width:100%;
+	font-size:54px;
+	font-weight:400;
+	letter-spacing:3px;
+	margin-top:1vh;
+	float:left;
 	}
 }

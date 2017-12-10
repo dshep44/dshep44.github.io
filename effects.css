@@ -97,6 +97,37 @@
   right: 5%;
 }
 
+.hvr-underline-from-center4 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position:relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center4:before {
+  content: "";
+  position:absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 25%;
+  background:#3C0;
+  height: 3px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center4:hover:before, .hvr-underline-from-center4:focus:before, .hvr-underline-from-center4:active:before {
+  left: 0%;
+  right: 0%;
+}
 
 
 .fancy {
@@ -129,10 +160,11 @@
 .fancy2 {
   line-height: 0.5;
   text-align: center;
+  margin-top:5vh;
 }
 .fancy2 span {
   display: inline-block;
-  position: relative;  
+  position: relative;
 }
 .fancy2 span:before,
 .fancy2 span:after {
@@ -231,4 +263,179 @@
 .fancy5 span:after {
   left: 100%;
   margin-left: 3vw;
+}
+
+
+
+@media screen and (max-width: 980px){
+
+
+.hvr-underline-from-center4 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position:relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center4:before {
+  content: "";
+  position:absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 25%;
+  background:#3C0;
+  height: 3px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center4:hover:before, .hvr-underline-from-center4:focus:before, .hvr-underline-from-center4:active:before {
+  left: 50%;
+  right: 50%;
+}
+
+
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 12px;
+  border-bottom: 1px solid #CCC;
+  top: 0;
+  width: 0vw;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 3vw;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 3vw;
+}
+
+
+.fancy2 {
+  line-height: 60px;
+  text-align: center;
+}
+.fancy2 span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy2 span:before,
+.fancy2 span:after {
+  content: "";
+  position: absolute;
+  height: 10px;
+  border-bottom: 1px solid #CCC;
+  top:auto;
+  width: 0vw;
+}
+.fancy2 span:before {
+  right: 100%;
+  margin-right: 3vw;
+}
+.fancy2 span:after {
+  left: 100%;
+  margin-left: 3vw;
+}
+
+
+.fancy3 {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy3 span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy3 span:before,
+.fancy3 span:after {
+  content: "";
+  position: absolute;
+  height: 10px;
+  border-bottom: 1px solid #CCC;
+  top: 0;
+  width: 0vw;
+}
+.fancy3 span:before {
+  right: 100%;
+  margin-right: 3vw;
+}
+.fancy3 span:after {
+  left: 100%;
+  margin-left: 3vw;
+}
+
+
+.fancy4 {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy4 span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy4 span:before,
+.fancy4 span:after {
+  content: "";
+  position: absolute;
+  height: 6px;
+  border-bottom: 1px solid #CCC;
+  top: 0;
+  width: 0vw;
+}
+.fancy4 span:before {
+  right: 100%;
+  margin-right: 3vw;
+}
+.fancy4 span:after {
+  left: 100%;
+  margin-left: 3vw;
+}
+
+
+.fancy5 {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy5 span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy5 span:before,
+.fancy5 span:after {
+  content: "";
+  position: absolute;
+  height: 6px;
+  border-bottom: 1px solid #CCC;
+  top: 0;
+  width: 0vw;
+}
+.fancy5 span:before {
+  right: 100%;
+  margin-right: 3vw;
+}
+.fancy5 span:after {
+  left: 100%;
+  margin-left: 3vw;
+}
+	
 }
