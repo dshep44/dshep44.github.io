@@ -1,0 +1,942 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+	height:100%;
+	background:#F3E8E8;
+	padding:0px;
+	margin:0px;
+	background:#283033;
+}
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+#arrow{
+	background:url(graphics/Arrow.png);
+	width:60px;
+	height:80px;
+	right:0;
+	float:left;
+	position:absolute;
+	bottom:0;
+}
+.landing-home{
+	background-image:url(graphics/Background%203.jpg);
+	height:100vh;
+	width:100%;
+	float:left;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center top;
+}
+.landing-contact{
+	background:#ffffff;
+	height:auto;
+	width:100%;
+	float:left;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center top;
+}
+.landing{
+	background:#ffffff;
+	height:auto;
+	width:100%;
+	float:left;
+}
+.wrapper{
+	width:100%;
+	height:auto;
+	float:left;
+	background:#FFF;
+}
+#landing-header{
+	width:70%;
+	margin-left:15%;
+	margin-top:10px;
+	float:left;
+	height:45px;
+	background:none;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#header{
+	width:70%;
+	margin-left:15%;
+	margin-top:10px;
+	height:80px;
+	float:left;
+	background:none;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#logo{
+	width:27%;
+	float:left;
+	height:auto;
+}
+.responsive-logo{
+    height:80px;
+	float:left;
+    background-size: 100% 100%;
+}
+.social-header{
+	width:26%;
+	float:left;
+	height:auto;
+	text-align:left;
+	color:#000000;
+	font-size:18px;
+	letter-spacing:8px;
+}
+.contact-header{
+	width:74%;
+	float:left;
+	height:auto;
+	text-align:right;
+	color:#000000;
+	font-size:16px;
+	letter-spacing:1px;
+}
+#header-links-s{
+	width:9%;
+	float:left;
+	height:35px;
+	text-align:center;
+	color:#000000;
+	font-size:16px;
+	letter-spacing:1px;
+	margin-top:35px;
+}
+#header-links-m{
+	width:9%;
+	float:left;
+	height:35px;
+	text-align:center;
+	color:#000000;
+	font-size:16px;
+	letter-spacing:1px;
+	margin-top:35px;
+}
+#header-menub{
+	width:28%;
+	float:left;
+	height:35px;
+	text-align:right;
+	color:#000000;
+	font-size:16px;
+	letter-spacing:1px;
+}
+#header-phone{
+	width:28%;
+	float:left;
+	height:35px;
+	text-align:right;
+	color:#000000;
+	font-size:16px;
+	letter-spacing:1px;
+	margin-top:35px;
+	margin-left:14%;
+}
+#banner{
+	width:52%;
+	height:auto;
+	margin-left:24%;
+	float:left;
+}
+#content-summery{
+	width:100%;
+	height:auto;
+	background:#FFFFFF;
+	float:left;
+}
+.summery{
+	text-align:center;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+.summery-icon{
+	color:#FFF;
+	margin-top:5vh;
+}
+.summery-title{
+	margin-top:1vh;
+	font-weight:600;
+	color:#FFFFFF;
+	font-size:42px;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+.summery-paragraph{
+	color:#FFF;
+	font-size:18px;
+	width:70%;
+	margin-left:15%;
+	line-height:25px;
+}
+#services-container{
+	height:auto;
+	width:100%;
+	background:url(graphics/black-desk.jpg);
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	float:left;
+	padding-bottom:5vh;
+}
+#service-heading{
+	width:100%;
+	background:none;
+	margin-top:3vh;
+	font-weight:600;
+	color:#FFFFFF;
+	font-size:48px;
+}
+#about-summery{
+	height:500px;
+	background:none;
+	width:25%;
+	float:left;
+}
+#our-services-summery{
+	height:500px;
+	background:none;
+	width:25%;
+	float:left;
+}
+#products-summery{
+	height:500px;
+	background:none;
+	width:25%;
+	float:left;
+}
+#contact-summery{
+	height:500px;
+	background:none;
+	width:25%;
+	float:left;
+}
+
+#content-button{
+	width:60%;
+	height:50px;
+	margin-left:20%;
+	margin-top:3vh;
+	float:left;
+	font-size:18px;
+	background-color:#37393d;
+	border-style: solid;
+    border-width: 1px;
+	border-color:#FFF;
+	line-height:50px;
+	color:#FFF;
+}
+#serviced-brands{
+	width:100%;
+	background:#FFFFFF;
+	height:100px;
+	float:left;
+}
+.footer{
+	width:100%;
+	background:#283033;
+	height:auto;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#footer-container{
+	width:90%;
+	height:auto;
+	margin-left:5%;
+	padding-top:5vh;
+	padding-bottom:3vh;
+	float:left;
+	background:none;
+}
+#footer-col-1{
+	width:34%;
+	height:auto;
+	float:left;
+}
+#footer-col-2{
+	width:20%;
+	height:auto;
+	float:left;
+}
+#footer-col-3{
+	width:20%;
+	height:auto;
+	float:left;
+}
+#footer-col-4{
+	width:26%;
+	height:auto;
+	float:left;
+}
+#footer-logo{
+	width:60%;
+	height:15vh;
+	float:left;
+}
+#footer-bottom{
+	width:100%;
+	float:left;
+	bottom:0px;
+	margin-top:1vh;
+}
+#footer-logo-container{
+	width:100%;
+	float:left;
+}
+.footer-register{
+	height:auto;
+	float:left;
+	font-weight:600;
+	color:#6d6f71;
+	font-size:12px;
+	width:34%;
+}
+.footer-title{
+	height:auto;
+	font-weight:800;
+	color:#dddddd;
+	font-size:16px;
+	letter-spacing:4px;
+	line-height:22px;
+}
+.footer-links{
+	height:auto;
+	font-weight:500;
+	color:#d8d8d8;
+	font-size:16px;
+	line-height:28px;
+	letter-spacing:1px;
+}
+.social-buttons{
+	width:26%;
+	float:left;
+	margin-left:40%;
+	height:auto;
+	text-align:right;
+	color:#6d6f71;
+	font-size:16px;
+	letter-spacing:8px;
+}
+.contact-mini{
+	width:26%;
+	float:left;
+	margin-left:40%;
+	height:auto;
+	text-align:right;
+	color:#6d6f71;
+	font-size:16px;
+	letter-spacing:1px;
+}
+.footer-times{
+	width:100%;
+	float:left;
+	height:auto;
+	text-align:right;
+	color:#6d6f71;
+	font-size:16px;
+	letter-spacing:1px;
+	line-height:28px;
+}
+.page-heading{
+	font-size:32px;
+	font-weight:500;
+	text-align:center;
+	color:#444444;
+	width:100%;
+	height:auto;
+}
+.page-subheading{
+	font-size:20px;
+	font-weight:500;
+	text-align:center;
+	color:#444444;
+	width:100%;
+	height:auto;
+}
+.contact-heading{
+	font-size:32px;
+	font-weight:500;
+	text-align:left;
+	color:#444444;
+	width:100%;
+	height:auto;
+}
+.contact-heading2{
+	font-size:32px;
+	font-weight:500;
+	text-align:right;
+	color:#444444;
+	width:100%;
+	height:auto;
+}
+#about-content{
+	width:60%;
+	height:auto;
+	margin-left:20%;
+	float:left;
+	margin-top:6vh;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#service-content{
+	width:60%;
+	height:50vh;
+	margin-left:20%;
+	float:left;
+	margin-top:6vh;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#contact-form{
+	width:60%;
+	height:auto;
+	margin-left:20%;
+	float:left;
+	margin-top:10vh;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#column-1{
+	margin-top:8vh;
+	width:48%;
+	height:auto;
+	font-size:15px;
+	font-weight:400;
+	text-align:left;
+	float:left;
+	color:#777777;
+	line-height:20px;
+}
+#column-2{
+	margin-top:7vh;
+	width:48%;
+	height:auto;
+	float:left;
+	margin-left:4%;
+}
+#column-3{
+	margin-top:7vh;
+	width:48%;
+	height:100%;
+	float:left;
+}
+#column-4{
+	margin-top:7vh;
+	width:48%;
+	height:100%;
+	float:left;
+	margin-left:4%;
+}
+#column-5{
+	width:40%;
+	height:auto;
+	float:left;
+	margin-left:30%;
+	font-size:15px;
+	font-weight:400;
+	float:left;
+	color:#777777;
+	line-height:20px;
+	margin-bottom:3vh;
+}
+#column-6{
+	width:60%;
+	height:auto;
+	float:left;
+	margin-left:20%;
+	font-size:15px;
+	font-weight:400;
+	float:left;
+	color:#777777;
+	line-height:20px;
+	margin-bottom:3vh;
+}
+#column-full{
+	float:left;
+	width:100%;
+	height:auto;
+}
+#about-skills{
+	height:35vh;
+	width:100%;
+	background:#f1f1f1;
+	float:left;
+	margin-top:5vh;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#about-services{
+	height:53vh;
+	width:100%;
+	background:#f1f1f1;
+	float:left;
+	margin-top:5vh;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#about-services2{
+	height:auto;
+	width:100%;
+	background:#f1f1f1;
+	float:left;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#product-gallery{
+	height:auto;
+	width:100%;
+	background:#f1f1f1;
+	float:left;
+	margin-top:5vh;
+}
+.product-gallery{
+	height:auto;
+	width:70%;
+	background:#f1f1f1;
+	float:left;
+	margin-top:5vh;
+	margin-left:15%;
+}
+#google-map{
+	height:auto;
+	width:100%;
+	background:#f1f1f1;
+	float:left;
+	margin-top:5vh;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#skill-summery{
+	height:auto;
+	width:60%;
+	margin-left:20%;
+	float:left;
+	text-align:center;
+	font-size:20px;
+	font-weight:500;
+	margin-top:3vh;
+}
+.skill{
+	width:25%;
+	height:auto;
+	float:left;
+	margin-top:2vh;
+	margin-bottom:2vh;
+}
+.skill-heading{
+	font-size:32px;
+	font-weight:500;
+	text-align:center;
+	color:#444444;
+	width:100%;
+	height:auto;
+	margin-top:5vh;
+}
+.map-heading{
+	font-size:32px;
+	font-weight:500;
+	text-align:center;
+	color:#444444;
+	width:100%;
+	height:auto;
+	margin-top:5vh;
+}
+#location-frame{
+	width:60%;
+	height:45vh;
+	margin-left:20%;
+	margin-bottom:5vh;
+	margin-top:5vh;
+}
+#stats-section{
+	width:100%;
+	height:auto;
+	background:url(graphics/g-background.png);
+	float:left;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#FFF;
+}
+#stats{
+	width:50%;
+	margin-left:25%;
+	height:auto;
+	float:left;
+	margin-top:8vh;
+	margin-bottom:8vh;
+}
+.stat{
+	width:33%;
+	height:auto;
+	float:left;
+	text-align:center;
+	font-size:20px;
+	font-weight:500;
+}
+.number{
+	text-align:center;
+	width:100%;
+	font-size:40px;
+	font-weight:400;
+	letter-spacing:3px;
+	margin-top:1vh;
+	float:left;
+}
+.subject{
+	text-align:center;
+	width:100%;
+	font-size:18px;
+	font-weight:400;
+	letter-spacing:3px;
+	margin-top:1vh;
+	float:left;
+}
+.green{
+	color:#7ac142;
+}
+.centre{
+	text-align:center;
+}
+.contact-info{
+	font-size:16px;
+	color:#333;
+	font-weight:700;
+	line-height:25px;
+	text-align:left;
+}
+.contact-info2{
+	font-size:16px;
+	color:#333;
+	font-weight:700;
+	line-height:25px;
+	text-align:right;
+}
+.responsive-image{
+    width: 100%;
+    background-size: 100% 100%;
+}
+.responsive-image2{
+    height: 90%;
+    background-size: 100% 100%;
+}
+.responsive-image3{
+    height: 70%;
+    background-size: 100% 100%;
+}
+.responsive-image4{
+    height: 60%;
+	margin-left:20%;
+    background-size: 100% 100%;
+}
+a {
+      text-decoration:none;
+	  color:inherit;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+	color:inherit;
+}
+#b1{
+		padding:0px;
+		font-size:16px;
+		font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		letter-spacing:1px;
+}
+
+
+
+
+@media screen and (max-width: 1368px){
+	#banner{
+	width:50%;
+	margin-left:25%;
+	}
+	#content-button{
+	width:50%;
+	margin-left:25%;
+	margin-top:4vh;
+	}
+	.summery-paragraph{
+	font-size:18px;
+	width:50%;
+	margin-left:25%;
+	}
+	#about-summery{
+	height:auto;
+	width:50%;
+	}
+	#our-services-summery{
+	height:auto;
+	width:50%;
+	}
+	#products-summery{
+	height:auto;
+	width:50%;
+	margin-top:15vh;
+	}
+	#contact-summery{
+	height:auto;
+	width:50%;
+	margin-top:15vh;
+	}
+	#footer-col-2{
+	width:18%;
+	}
+	#footer-col-3{
+	width:18%;
+	}
+	#footer-col-4{
+	width:29%;
+	}
+	#footer-logo{
+	width:80%;
+	}
+	.footer-register{
+	font-size:14px;
+	}
+	.footer-title{
+	font-size:14px;
+	}
+	.footer-links{
+	font-size:14px;
+	}
+	.social-buttons{
+	font-size:14px;
+	}
+	.contact-mini{
+	width:30%;
+	margin-left:36%;
+	font-size:14px;
+	}
+	.footer-times{
+	font-size:14px;
+	}
+	#header-links-s{
+	width:8%;
+	height:35px;
+	font-size:14px;
+	letter-spacing:1px;
+	margin-top:35px;
+	}
+	#header-links-m{
+	width:10.5%;
+	font-size:14px;
+	}
+	#column-1{
+	margin-top:10vh;
+	font-size:15px;
+	}
+	.page-heading{
+	font-size:26px;
+	}
+	#about-skills{
+	height:40vh;
+	}
+	#about-services{
+		height:75vh;
+	}
+	#about-services2{
+		
+	}
+	#skill-summery{
+	font-size:16px;
+	margin-top:5vh;
+	}
+	.skill-heading{
+	font-size:26px;
+	}
+	#stats-section{
+	background:url(graphics/g-background.png);
+	}
+	#stats{
+	margin-top:7vh;
+	margin-bottom:7vh;
+	}
+	.stat{
+	font-size:16px;
+	}
+	.contact-info{
+	font-size:16px;
+	font-weight:500;
+	}
+	.contact-info2{
+	font-size:16px;
+	font-weight:500;
+	}
+	.contact-heading{
+	font-size:26px;
+	}
+	.contact-heading2{
+	font-size:26px;
+	}
+	nav ul{
+	font-size:14px;
+	letter-spacing:0px;
+	}
+	#b1{
+		padding:0px;
+		font-size:13px;
+		font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		letter-spacing:1px;
+	}
+}
+
+@media screen and (max-width: 1175px){
+	#b1{
+		padding:0px;
+		font-size:11px;
+		font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		letter-spacing:1px;
+	}
+}
+
+@media screen and (max-width: 980px){
+	#header{
+	width:100%;
+	margin-left:0;
+	margin-top:10px;
+	height:auto;
+	float:left;
+	background:none;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+	#about-content{
+		margin:20 auto;
+		display:block;
+	}
+	#logo{
+		width:70%;
+		margin-left:5%;
+		height:auto;
+	}
+	#header-menub{
+	width:100px;
+	float:left;
+	height:100px;
+	margin-top:30px;
+	}
+	#header-phone{
+		display:none;
+	}
+	.page-heading{
+	font-size:70px;
+	font-weight:400;
+	height:auto;
+	line-height:70px;
+	float:left;
+	}
+	#column-1{
+		width:90%;
+		margin-left:5%;
+		font-size:34px;
+		line-height:40px;
+	}
+	#column-2{
+		display:none;
+	}
+	#b1{
+		padding:40px;
+		font-size:40px;
+	}
+	.responsive-logo{
+    height:auto;
+	float:left;
+	width:70%;
+    background-size: 100% 100%;
+	}
+	#about-content{
+		width:100%;
+		margin-left:0;
+	}
+	#about-skills{
+	height:auto;
+	width:100%;
+	background:#f1f1f1;
+	float:left;
+	margin-top:5vh;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+	.skill-heading{
+	font-size:70px;
+	font-weight:500;
+	text-align:center;
+	color:#444444;
+	width:100%;
+	height:auto;
+	margin-top:5vh;
+	}
+	#skill-summery{
+	height:auto;
+	width:90%;
+	margin-left:5%;
+	float:left;
+	text-align:center;
+	font-size:50px;
+	font-weight:500;
+	margin-top:5vh;
+	}
+	.skill{
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top:5vh;
+	margin-bottom:5vh;
+	}
+	.show-menu{
+	height:100px;
+	width:100px;
+	color:#000000;
+	}
+	#stats-section{
+	width:100%;
+	height:auto;
+	background:#7ac142;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center top;
+	float:left;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#FFF;
+	}
+	#stats{
+	width:90%;
+	margin-left:5%;
+	height:auto;
+	float:left;
+	margin-top:8vh;
+	margin-bottom:8vh;
+	}
+	.stat{
+	width:100%;
+	height:auto;
+	float:left;
+	text-align:center;
+	font-size:60px;
+	font-weight:500;
+	margin-top:5vh;
+	margin-bottom:5vh;
+	}
+	.number{
+	text-align:center;
+	width:100%;
+	font-size:64px;
+	font-weight:600;
+	letter-spacing:3px;
+	margin-top:1vh;
+	float:left;
+	}
+	.subject{
+	text-align:center;
+	width:100%;
+	font-size:54px;
+	font-weight:400;
+	letter-spacing:3px;
+	margin-top:1vh;
+	float:left;
+	}
+}
