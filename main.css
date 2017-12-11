@@ -344,7 +344,7 @@ body{
 	height:auto;
 	text-align:right;
 	color:#6d6f71;
-	font-size:16px;
+	font-size:14px;
 	letter-spacing:1px;
 	line-height:28px;
 }
@@ -461,6 +461,17 @@ body{
 	margin-bottom:3vh;
 }
 #column-7{
+	margin-top:8vh;
+	width:48%;
+	height:auto;
+	font-size:15px;
+	font-weight:400;
+	text-align:left;
+	float:left;
+	color:#777777;
+	line-height:20px;
+}
+#column-8{
 	margin-top:8vh;
 	width:48%;
 	height:auto;
@@ -645,6 +656,18 @@ body{
 	margin-left:20%;
     background-size: 100% 100%;
 }
+.responsive-image5{
+	height:auto;
+	float:left;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.responsive-image6{
+	height:auto;
+	float:left;
+    width: 100%;
+    background-size: 100% 100%;
+}
 a {
       text-decoration:none;
 	  color:inherit;
@@ -818,6 +841,12 @@ a:hover, a:visited, a:link, a:active
 		font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 		letter-spacing:1px;
 	}
+	.responsive-image{
+		height: auto;
+		margin-left:45%;
+		width:100%;
+		background-size: 100% 100%;
+	}
 	.responsive-image3{
 		margin-top:5vh;
     	width:100%;
@@ -857,7 +886,7 @@ a:hover, a:visited, a:link, a:active
 		color:#777777;
 		line-height:20px;
 	}
-	#column-5{
+	#column-8{
 		width:100%;
 		height:auto;
 		float:left;
@@ -867,7 +896,7 @@ a:hover, a:visited, a:link, a:active
 		line-height:20px;
 		margin-bottom:0vh;
 		margin-left:0px;
-		margin-top:5vh;
+		margin-top:4vh;
 		margin-bottom:3vh;
 	}
 	#service-content{
@@ -951,6 +980,14 @@ a:hover, a:visited, a:link, a:active
 	margin-left:5%;
 	}
 	#column-7{
+		width:90%;
+		margin-left:5%;
+		font-size:34px;
+		line-height:40px;
+		margin-top:10vh;
+		text-align:center;
+	}
+	#column-8{
 		width:90%;
 		margin-left:5%;
 		font-size:34px;
@@ -1074,5 +1111,47 @@ a:hover, a:visited, a:link, a:active
 	color:#444444;
 	width:100%;
 	height:auto;
+	}
+	#footer-col-1{
+		margin-left:15%;
+		width:35%;
+	}
+	#footer-col-2{
+		display:none;
+	}
+	#footer-col-3{
+		display:none;
+	}		
+	#footer-col-4{
+		width:35%;
+	}
+	.footer-register{
+		height:auto;
+		float:left;
+		font-weight:600;
+		color:#6d6f71;
+		font-size:16px;
+		width:35%;
+		margin-left:15%;
+	}
+	.social-buttons{
+		width:35%;
+		float:left;
+		margin-left:0%;
+		height:auto;
+		text-align:right;
+		color:#6d6f71;
+		font-size:16px;
+		letter-spacing:8px;
+	}
+	.contact-mini{
+		width:35%;
+		float:left;
+		margin-left:0%;
+		height:auto;
+		text-align:right;
+		color:#6d6f71;
+		font-size:16px;
+		letter-spacing:1px;
 	}
 }

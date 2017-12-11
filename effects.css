@@ -158,7 +158,7 @@
 
 
 .fancy2 {
-  line-height: 0.5;
+  line-height: 30px;
   text-align: center;
   margin-top:5vh;
 }
@@ -186,7 +186,7 @@
 
 
 .fancy3 {
-  line-height: 0.5;
+  line-height: 30px;
   text-align: center;
 }
 .fancy3 span {
@@ -213,7 +213,7 @@
 
 
 .fancy4 {
-  line-height: 0.5;
+  line-height: 30px;
   text-align: center;
 }
 .fancy4 span {
@@ -240,7 +240,7 @@
 
 
 .fancy5 {
-  line-height: 20px;
+  line-height: 30px;
   text-align: center;
 }
 .fancy5 span {
