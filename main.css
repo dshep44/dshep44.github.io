@@ -1154,4 +1154,14 @@ a:hover, a:visited, a:link, a:active
 		font-size:16px;
 		letter-spacing:1px;
 	}
+	.responsive-image6{
+		height:auto;
+		float:left;
+		width: 100%;
+		background-size: 100% 100%;
+	}
+	#banner{
+		width:90%;
+		margin-left:5%;
+	}
 }
