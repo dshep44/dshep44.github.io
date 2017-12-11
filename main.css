@@ -1164,4 +1164,14 @@ a:hover, a:visited, a:link, a:active
 		width:90%;
 		margin-left:5%;
 	}
+	.social-header{
+		font-size:20px;
+	}
+	.contact-header{
+		font-size:20px;
+	}
+	#landing-header{
+		width:90%;
+		margin-left:5%;
+	}
 }
