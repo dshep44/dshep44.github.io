@@ -390,7 +390,7 @@ body{
 }
 #service-content{
 	width:60%;
-	height:auto;
+	height:50vh;
 	margin-left:20%;
 	float:left;
 	margin-top:6vh;
@@ -473,7 +473,7 @@ body{
 	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 #about-services{
-	height:auto;
+	height:53vh;
 	width:100%;
 	background:#f1f1f1;
 	float:left;
@@ -615,8 +615,6 @@ body{
 	text-align:right;
 }
 .responsive-image{
-	height:auto;
-	float:left;
     width: 100%;
     background-size: 100% 100%;
 }
@@ -625,7 +623,7 @@ body{
     background-size: 100% 100%;
 }
 .responsive-image3{
-    width:95%;
+    height: 70%;
     background-size: 100% 100%;
 }
 .responsive-image4{
@@ -728,12 +726,18 @@ a:hover, a:visited, a:link, a:active
 	width:10.5%;
 	font-size:14px;
 	}
+	#column-1{
+	margin-top:10vh;
+	font-size:15px;
+	}
 	.page-heading{
 	font-size:26px;
-	line-height:50px;
 	}
 	#about-skills{
 	height:40vh;
+	}
+	#about-services{
+		height:75vh;
 	}
 	#about-services2{
 		
@@ -779,24 +783,6 @@ a:hover, a:visited, a:link, a:active
 		font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 		letter-spacing:1px;
 	}
-	.responsive-image3{
-	margin-top:7vh;
-    width:95%;
-    background-size: 100% 100%;
-	}
-	#column-5{
-		width:60%;
-		height:auto;
-		float:left;
-		font-size:15px;
-		font-weight:400;
-		color:#777777;
-		line-height:20px;
-		margin-bottom:0vh;
-		margin-left:20%;
-		margin-top:5vh;
-		margin-bottom:3vh;
-	}
 }
 
 @media screen and (max-width: 1175px){
@@ -805,57 +791,6 @@ a:hover, a:visited, a:link, a:active
 		font-size:11px;
 		font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 		letter-spacing:1px;
-	}
-	.responsive-image3{
-		margin-top:5vh;
-    	width:100%;
-    	background-size: 100% 100%;
-	}
-	#column-3{
-		margin-top:0vh;
-		width:100%;
-		height:30vh;
-		float:left;
-	}
-	#column-1{
-		margin-top:50%;
-		width:100%;
-		height:auto;
-		font-size:15px;
-		font-weight:400;
-		text-align:left;
-		float:left;
-		color:#777777;
-		line-height:20px;
-	}
-	#column-5{
-		width:100%;
-		height:auto;
-		float:left;
-		font-size:15px;
-		font-weight:400;
-		color:#777777;
-		line-height:20px;
-		margin-bottom:0vh;
-		margin-left:0px;
-		margin-top:5vh;
-		margin-bottom:3vh;
-	}
-	#service-content{
-		width:60%;
-		height:auto;
-		margin-left:20%;
-		float:left;
-		margin-top:6vh;
-		font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	}
-	#about-services{
-		height:auto;
-		width:100%;
-		background:#f1f1f1;
-		float:left;
-		margin-top:10vh;
-		font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	}
 }
 
@@ -881,7 +816,7 @@ a:hover, a:visited, a:link, a:active
 	#header-menub{
 	width:100px;
 	float:left;
-	height:110px;
+	height:100px;
 	margin-top:30px;
 	}
 	#header-phone{
@@ -900,14 +835,28 @@ a:hover, a:visited, a:link, a:active
 		font-size:34px;
 		line-height:40px;
 	}
+	.contact-heading{
+	font-size:60px;
+	text-align:center;
+	margin-top:5vh;
+	}
+	.contact-info{
+	font-size:40px;
+	text-align:center;
+	line-height:50px;
+	}
+	.contact-heading2{
+	font-size:60px;
+	text-align:center;
+	margin-top:5vh;
+	}
+	.contact-info2{
+	font-size:40px;
+	text-align:center;
+	line-height:50px;
+	}
 	#column-2{
 		display:none;
-	}
-	#column-3{
-	margin-top:7vh;
-	width:48%;
-	height:auto;
-	float:left;
 	}
 	#b1{
 		padding:40px;
@@ -1009,5 +958,20 @@ a:hover, a:visited, a:link, a:active
 	letter-spacing:3px;
 	margin-top:1vh;
 	float:left;
+	}
+	#location-frame{
+	width:90%;
+	height:100vh;
+	margin-left:5%;
+	margin-bottom:5vh;
+	margin-top:5vh;
+	}
+	#contact-form{
+	width:90%;
+	height:auto;
+	margin-left:5%;
+	float:left;
+	margin-top:10vh;
+	font-family:Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	}
 }
