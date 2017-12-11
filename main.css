@@ -900,6 +900,7 @@ a:hover, a:visited, a:link, a:active
 		font-size:34px;
 		line-height:40px;
 		margin-top:10vh;
+		text-align:center;
 	}
 	#column-2{
 		display:none;
